@@ -7,7 +7,8 @@
     border: 2px solid #000000;
     border-radius: 50px;
 }
-.oragami{
+.oragami:hover{
+    transform: scale(1.2);
     border-radius: 20px;
     background-color: #ffffff;
     padding: 30px;
@@ -28,4 +29,10 @@
 body{
     margin: 0px;
     background-color: #f7f7f7;
+}
+a:link{
+    color:white
+}
+a:visited{
+    color:white
 }
